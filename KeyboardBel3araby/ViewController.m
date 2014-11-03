@@ -13,6 +13,30 @@
 @end
 
 @implementation ViewController
+- (IBAction)buttonsRedClicked:(id)sender {
+    NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.arabdevs.keyboardy"];
+    NSData *colorData = [NSKeyedArchiver archivedDataWithRootObject:[UIColor redColor]];
+    [defaults setObject:colorData forKey:@"lettersColor"];
+    [defaults synchronize];
+}
+- (IBAction)buttonsBlueClicked:(id)sender {
+    NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.arabdevs.keyboardy"];
+    NSData *colorData = [NSKeyedArchiver archivedDataWithRootObject:[UIColor blueColor]];
+    [defaults setObject:colorData forKey:@"lettersColor"];
+    [defaults synchronize];
+}
+- (IBAction)backgroundRedClicked:(id)sender {
+    NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.arabdevs.keyboardy"];
+    NSData *colorData = [NSKeyedArchiver archivedDataWithRootObject:[UIColor redColor]];
+    [defaults setObject:colorData forKey:@"bgColor"];
+    [defaults synchronize];
+}
+- (IBAction)backGroundBlueClicked:(id)sender {
+    NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.arabdevs.keyboardy"];
+    NSData *colorData = [NSKeyedArchiver archivedDataWithRootObject:[UIColor blueColor]];
+    [defaults setObject:colorData forKey:@"bgColor"];
+    [defaults synchronize];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0454BBFB1A06201500AFD2CE /* AMPopTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454BBFA1A06201500AFD2CE /* AMPopTip.m */; };
+		0454BC001A06208000AFD2CE /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454BBFE1A06208000AFD2CE /* PopoverView.m */; };
+		0454BC051A0622A300AFD2CE /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454BC011A0622A300AFD2CE /* error.png */; };
+		0454BC061A0622A300AFD2CE /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454BC021A0622A300AFD2CE /* error@2x.png */; };
+		0454BC071A0622A300AFD2CE /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454BC031A0622A300AFD2CE /* success.png */; };
+		0454BC081A0622A300AFD2CE /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454BC041A0622A300AFD2CE /* success@2x.png */; };
+		0454BC091A0622EE00AFD2CE /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454BC011A0622A300AFD2CE /* error.png */; };
+		0454BC0A1A0622EE00AFD2CE /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454BC021A0622A300AFD2CE /* error@2x.png */; };
+		0454BC0B1A0622EE00AFD2CE /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454BC031A0622A300AFD2CE /* success.png */; };
+		0454BC0C1A0622EE00AFD2CE /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454BC041A0622A300AFD2CE /* success@2x.png */; };
+		0454BC0D1A0622EE00AFD2CE /* Globe-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AD9AE11A060278008D3438 /* Globe-icon.png */; };
+		0454BC0E1A0622EE00AFD2CE /* Arrow-Back-3-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AD9ADF1A06024D008D3438 /* Arrow-Back-3-icon.png */; };
+		0454BC0F1A0622FC00AFD2CE /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454BBFE1A06208000AFD2CE /* PopoverView.m */; };
+		0454BC101A0622FC00AFD2CE /* AMPopTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454BBFA1A06201500AFD2CE /* AMPopTip.m */; };
 		04AD9AA51A05F428008D3438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD9AA41A05F428008D3438 /* main.m */; };
 		04AD9AA81A05F428008D3438 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD9AA71A05F428008D3438 /* AppDelegate.m */; };
 		04AD9AAB1A05F428008D3438 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD9AAA1A05F428008D3438 /* ViewController.m */; };
@@ -14,6 +28,12 @@
 		04AD9AB01A05F428008D3438 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AD9AAF1A05F428008D3438 /* Images.xcassets */; };
 		04AD9AB31A05F428008D3438 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD9AB11A05F428008D3438 /* LaunchScreen.xib */; };
 		04AD9ABF1A05F428008D3438 /* KeyboardBel3arabyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD9ABE1A05F428008D3438 /* KeyboardBel3arabyTests.m */; };
+		04AD9AD21A05F533008D3438 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD9AD11A05F533008D3438 /* KeyboardViewController.m */; };
+		04AD9AD51A05F533008D3438 /* CustomKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04AD9ACC1A05F533008D3438 /* CustomKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04AD9ADC1A05F9B4008D3438 /* Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD9ADB1A05F9B4008D3438 /* Keyboard.m */; };
+		04AD9ADE1A05F9BF008D3438 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD9ADD1A05F9BF008D3438 /* Keyboard.xib */; };
+		04AD9AE01A06024D008D3438 /* Arrow-Back-3-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AD9ADF1A06024D008D3438 /* Arrow-Back-3-icon.png */; };
+		04AD9AE21A060278008D3438 /* Globe-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AD9AE11A060278008D3438 /* Globe-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +44,42 @@
 			remoteGlobalIDString = 04AD9A9E1A05F428008D3438;
 			remoteInfo = KeyboardBel3araby;
 		};
+		04AD9AD31A05F533008D3438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AD9A971A05F428008D3438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AD9ACB1A05F533008D3438;
+			remoteInfo = CustomKeyboard;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		04AD9AD91A05F533008D3438 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04AD9AD51A05F533008D3438 /* CustomKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		041DA83A1A068BAC0047E5B6 /* CustomKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CustomKeyboard.entitlements; sourceTree = "<group>"; };
+		041DA83B1A068BDC0047E5B6 /* KeyboardBel3araby.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KeyboardBel3araby.entitlements; sourceTree = "<group>"; };
+		0454BBF91A06201500AFD2CE /* AMPopTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPopTip.h; sourceTree = "<group>"; };
+		0454BBFA1A06201500AFD2CE /* AMPopTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPopTip.m; sourceTree = "<group>"; };
+		0454BBFC1A06208000AFD2CE /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
+		0454BBFD1A06208000AFD2CE /* PopoverView_Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView_Configuration.h; sourceTree = "<group>"; };
+		0454BBFE1A06208000AFD2CE /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
+		0454BBFF1A06208000AFD2CE /* PopoverViewCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewCompatibility.h; sourceTree = "<group>"; };
+		0454BC011A0622A300AFD2CE /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		0454BC021A0622A300AFD2CE /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		0454BC031A0622A300AFD2CE /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		0454BC041A0622A300AFD2CE /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
 		04AD9A9F1A05F428008D3438 /* KeyboardBel3araby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardBel3araby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AD9AA31A05F428008D3438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04AD9AA41A05F428008D3438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +93,15 @@
 		04AD9AB81A05F428008D3438 /* KeyboardBel3arabyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardBel3arabyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AD9ABD1A05F428008D3438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04AD9ABE1A05F428008D3438 /* KeyboardBel3arabyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardBel3arabyTests.m; sourceTree = "<group>"; };
+		04AD9ACC1A05F533008D3438 /* CustomKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AD9ACF1A05F533008D3438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AD9AD01A05F533008D3438 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		04AD9AD11A05F533008D3438 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		04AD9ADA1A05F9B4008D3438 /* Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keyboard.h; sourceTree = "<group>"; };
+		04AD9ADB1A05F9B4008D3438 /* Keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keyboard.m; sourceTree = "<group>"; };
+		04AD9ADD1A05F9BF008D3438 /* Keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+		04AD9ADF1A06024D008D3438 /* Arrow-Back-3-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-Back-3-icon.png"; sourceTree = "<group>"; };
+		04AD9AE11A060278008D3438 /* Globe-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Globe-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +119,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04AD9AC91A05F533008D3438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +134,7 @@
 			children = (
 				04AD9AA11A05F428008D3438 /* KeyboardBel3araby */,
 				04AD9ABB1A05F428008D3438 /* KeyboardBel3arabyTests */,
+				04AD9ACD1A05F533008D3438 /* CustomKeyboard */,
 				04AD9AA01A05F428008D3438 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +144,7 @@
 			children = (
 				04AD9A9F1A05F428008D3438 /* KeyboardBel3araby.app */,
 				04AD9AB81A05F428008D3438 /* KeyboardBel3arabyTests.xctest */,
+				04AD9ACC1A05F533008D3438 /* CustomKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +152,7 @@
 		04AD9AA11A05F428008D3438 /* KeyboardBel3araby */ = {
 			isa = PBXGroup;
 			children = (
+				041DA83B1A068BDC0047E5B6 /* KeyboardBel3araby.entitlements */,
 				04AD9AA61A05F428008D3438 /* AppDelegate.h */,
 				04AD9AA71A05F428008D3438 /* AppDelegate.m */,
 				04AD9AA91A05F428008D3438 /* ViewController.h */,
@@ -119,6 +191,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		04AD9ACD1A05F533008D3438 /* CustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				041DA83A1A068BAC0047E5B6 /* CustomKeyboard.entitlements */,
+				0454BBFC1A06208000AFD2CE /* PopoverView.h */,
+				0454BBFD1A06208000AFD2CE /* PopoverView_Configuration.h */,
+				0454BBFE1A06208000AFD2CE /* PopoverView.m */,
+				0454BBFF1A06208000AFD2CE /* PopoverViewCompatibility.h */,
+				0454BBF91A06201500AFD2CE /* AMPopTip.h */,
+				0454BBFA1A06201500AFD2CE /* AMPopTip.m */,
+				04AD9AD01A05F533008D3438 /* KeyboardViewController.h */,
+				04AD9AD11A05F533008D3438 /* KeyboardViewController.m */,
+				04AD9ADA1A05F9B4008D3438 /* Keyboard.h */,
+				04AD9ADB1A05F9B4008D3438 /* Keyboard.m */,
+				04AD9ADD1A05F9BF008D3438 /* Keyboard.xib */,
+				04AD9ACE1A05F533008D3438 /* Supporting Files */,
+			);
+			path = CustomKeyboard;
+			sourceTree = "<group>";
+		};
+		04AD9ACE1A05F533008D3438 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0454BC011A0622A300AFD2CE /* error.png */,
+				0454BC021A0622A300AFD2CE /* error@2x.png */,
+				0454BC031A0622A300AFD2CE /* success.png */,
+				0454BC041A0622A300AFD2CE /* success@2x.png */,
+				04AD9AE11A060278008D3438 /* Globe-icon.png */,
+				04AD9ADF1A06024D008D3438 /* Arrow-Back-3-icon.png */,
+				04AD9ACF1A05F533008D3438 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +235,12 @@
 				04AD9A9B1A05F428008D3438 /* Sources */,
 				04AD9A9C1A05F428008D3438 /* Frameworks */,
 				04AD9A9D1A05F428008D3438 /* Resources */,
+				04AD9AD91A05F533008D3438 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04AD9AD41A05F533008D3438 /* PBXTargetDependency */,
 			);
 			name = KeyboardBel3araby;
 			productName = KeyboardBel3araby;
@@ -157,6 +265,23 @@
 			productReference = 04AD9AB81A05F428008D3438 /* KeyboardBel3arabyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		04AD9ACB1A05F533008D3438 /* CustomKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AD9AD61A05F533008D3438 /* Build configuration list for PBXNativeTarget "CustomKeyboard" */;
+			buildPhases = (
+				04AD9AC81A05F533008D3438 /* Sources */,
+				04AD9AC91A05F533008D3438 /* Frameworks */,
+				04AD9ACA1A05F533008D3438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomKeyboard;
+			productName = CustomKeyboard;
+			productReference = 04AD9ACC1A05F533008D3438 /* CustomKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +293,25 @@
 				TargetAttributes = {
 					04AD9A9E1A05F428008D3438 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 9672ZX333W;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					04AD9AB71A05F428008D3438 = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 04AD9A9E1A05F428008D3438;
+					};
+					04AD9ACB1A05F533008D3438 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 9672ZX333W;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -190,6 +330,7 @@
 			targets = (
 				04AD9A9E1A05F428008D3438 /* KeyboardBel3araby */,
 				04AD9AB71A05F428008D3438 /* KeyboardBel3arabyTests */,
+				04AD9ACB1A05F533008D3438 /* CustomKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -199,8 +340,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0454BC0D1A0622EE00AFD2CE /* Globe-icon.png in Resources */,
+				0454BC0C1A0622EE00AFD2CE /* success@2x.png in Resources */,
 				04AD9AAE1A05F428008D3438 /* Main.storyboard in Resources */,
+				0454BC0B1A0622EE00AFD2CE /* success.png in Resources */,
+				0454BC0A1A0622EE00AFD2CE /* error@2x.png in Resources */,
 				04AD9AB31A05F428008D3438 /* LaunchScreen.xib in Resources */,
+				0454BC0E1A0622EE00AFD2CE /* Arrow-Back-3-icon.png in Resources */,
+				0454BC091A0622EE00AFD2CE /* error.png in Resources */,
 				04AD9AB01A05F428008D3438 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +356,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AD9ACA1A05F533008D3438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0454BC081A0622A300AFD2CE /* success@2x.png in Resources */,
+				04AD9ADE1A05F9BF008D3438 /* Keyboard.xib in Resources */,
+				0454BC071A0622A300AFD2CE /* success.png in Resources */,
+				0454BC061A0622A300AFD2CE /* error@2x.png in Resources */,
+				04AD9AE21A060278008D3438 /* Globe-icon.png in Resources */,
+				0454BC051A0622A300AFD2CE /* error.png in Resources */,
+				04AD9AE01A06024D008D3438 /* Arrow-Back-3-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +382,8 @@
 			files = (
 				04AD9AAB1A05F428008D3438 /* ViewController.m in Sources */,
 				04AD9AA81A05F428008D3438 /* AppDelegate.m in Sources */,
+				0454BC101A0622FC00AFD2CE /* AMPopTip.m in Sources */,
+				0454BC0F1A0622FC00AFD2CE /* PopoverView.m in Sources */,
 				04AD9AA51A05F428008D3438 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,6 +396,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04AD9AC81A05F533008D3438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AD9ADC1A05F9B4008D3438 /* Keyboard.m in Sources */,
+				04AD9AD21A05F533008D3438 /* KeyboardViewController.m in Sources */,
+				0454BC001A06208000AFD2CE /* PopoverView.m in Sources */,
+				0454BBFB1A06201500AFD2CE /* AMPopTip.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +414,11 @@
 			isa = PBXTargetDependency;
 			target = 04AD9A9E1A05F428008D3438 /* KeyboardBel3araby */;
 			targetProxy = 04AD9AB91A05F428008D3438 /* PBXContainerItemProxy */;
+		};
+		04AD9AD41A05F533008D3438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AD9ACB1A05F533008D3438 /* CustomKeyboard */;
+			targetProxy = 04AD9AD31A05F533008D3438 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -343,9 +522,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyboardBel3araby/KeyboardBel3araby.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = KeyboardBel3araby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,9 +536,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyboardBel3araby/KeyboardBel3araby.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = KeyboardBel3araby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -393,6 +580,38 @@
 			};
 			name = Release;
 		};
+		04AD9AD71A05F533008D3438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CustomKeyboard/CustomKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		04AD9AD81A05F533008D3438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CustomKeyboard/CustomKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,6 +631,7 @@
 				04AD9AC41A05F428008D3438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04AD9AC51A05F428008D3438 /* Build configuration list for PBXNativeTarget "KeyboardBel3arabyTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +640,16 @@
 				04AD9AC71A05F428008D3438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AD9AD61A05F533008D3438 /* Build configuration list for PBXNativeTarget "CustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AD9AD71A05F533008D3438 /* Debug */,
+				04AD9AD81A05F533008D3438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
